@@ -14,7 +14,13 @@ public class GraphicsCard{
         this.brand = brand;
     }
 
-    
+    public int getSeries(){
+        return series;
+    }
+
+    public void setSeries(int series){
+        this.series = series;
+    }
 
     public GraphicsCard(){
         this.brand = "Nvidia";
