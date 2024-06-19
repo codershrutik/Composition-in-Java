@@ -6,6 +6,16 @@ public class GraphicsCard{
     private int series;
     private String memory;
 
+    public String getBrand(){
+        return brand;
+    }
+
+    public void setBrand(String brand){
+        this.brand = brand;
+    }
+
+    
+
     public GraphicsCard(){
         this.brand = "Nvidia";
         this.series = 3100;
