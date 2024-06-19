@@ -9,6 +9,42 @@ public class Processor{
     private String minFrequency;
     private String maxFrequency;
 
+    public String getBrand(){
+        return brand;
+    }
+
+    public String getSeries(){
+        return series;
+    }
+
+    public int getGeneration(){
+        return generation;
+    }
+
+    public int getCores(){
+        return cores;
+    }
+
+    public int getThreads(){
+        return threads;
+    }
+
+    public String cacheMemory(){
+        return cacheMemory;
+    }
+
+    public String getFrequency(){
+        return frequency;
+    }
+
+    public String getMinFrequency(){
+        return minFrequency;
+    }
+
+    public String getMaxFrequency(){
+        return maxFrequency;
+    }
+
     public Processor(){
         this.brand = "Intel";
         this.series = "11000u";
