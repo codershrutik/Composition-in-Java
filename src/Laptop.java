@@ -77,6 +77,14 @@ public class Laptop{
         this.opticalDrive = opticalDrive;
     }
 
+    public String getKeyboard(){
+        return keyboard;
+    }
+
+    public void setKeyboard(){
+        this.keyboard = keyboard;
+    }
+
     public String toString(){
         return "Laptop {" +
             "screen = " + screen +
