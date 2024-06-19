@@ -37,6 +37,14 @@ public class Laptop{
         this.screen = screen;
     }
 
+    public Processor getProcessor(){
+        return processor;
+    }
+
+    public void setProcessor(Processor processor){
+        this.processor = processor;
+    }
+
     public String toString(){
         return "Laptop {" +
             "screen = " + screen +
