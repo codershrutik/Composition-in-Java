@@ -53,6 +53,14 @@ public class Laptop{
         this.ram = ram;
     }
 
+    public String getHardDrive(){
+        return hardDrive;
+    }
+
+    public void setHardDrive(String hardDrive){
+        this.hardDrive = hardDrive;
+    }
+
     public String toString(){
         return "Laptop {" +
             "screen = " + screen +
