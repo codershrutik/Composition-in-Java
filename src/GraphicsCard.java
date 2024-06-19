@@ -22,6 +22,14 @@ public class GraphicsCard{
         this.series = series;
     }
 
+    public String getMemory(){
+        return memory;
+    }
+
+    public void setMemory(String memory){
+        this.memory = memory;
+    }
+
     public GraphicsCard(){
         this.brand = "Nvidia";
         this.series = 3100;
