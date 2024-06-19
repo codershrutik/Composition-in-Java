@@ -69,6 +69,14 @@ public class Laptop{
         this.graphicsCard = graphicsCard;
     }
 
+    public String getopticalDrive(){
+        return opticalDrive;
+    }
+
+    public void setOptivalDrive(String opticalDrive){
+        this.opticalDrive = opticalDrive;
+    }
+
     public String toString(){
         return "Laptop {" +
             "screen = " + screen +
