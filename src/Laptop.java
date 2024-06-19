@@ -29,6 +29,14 @@ public class Laptop{
         this.keyboard = keyboard;
     }
 
+    public float getScreen(){
+        return screen;
+    }
+
+    public void setScreen(float screen){
+        this.screen = screen;
+    }
+
     public String toString(){
         return "Laptop {" +
             "screen = " + screen +
