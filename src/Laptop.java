@@ -45,6 +45,14 @@ public class Laptop{
         this.processor = processor;
     }
 
+    public String getRam(){
+        return ram;
+    }
+
+    public void setRam(String ram){
+        this.ram = ram;
+    }
+
     public String toString(){
         return "Laptop {" +
             "screen = " + screen +
