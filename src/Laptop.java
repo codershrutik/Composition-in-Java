@@ -61,6 +61,14 @@ public class Laptop{
         this.hardDrive = hardDrive;
     }
 
+    public GraphicsCard graphicsCard(){
+        return graphicsCard;
+    }
+
+    public void setGraphicsCard(GraphicsCard graphicsCard){
+        this.graphicsCard = graphicsCard;
+    }
+
     public String toString(){
         return "Laptop {" +
             "screen = " + screen +
